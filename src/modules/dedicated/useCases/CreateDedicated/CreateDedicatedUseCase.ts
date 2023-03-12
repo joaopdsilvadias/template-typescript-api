@@ -6,7 +6,7 @@ import { IDedicatedRepository } from "../../repositories/IDedicatedRepository";
 @injectable()
 export class CreateDedicatedUseCase {
     constructor(
-        @inject("dedicatedRepository")
+        @inject("DedicatedRepository")
         private dedicatedsRepository: IDedicatedRepository,
     ) {}
 
